@@ -4,7 +4,7 @@ example -
 ```html
 ...
 <head>
-    <link rel="icon" href="https://favmoji.asheeshh.workers.dev/😂"/>
+    <link rel="icon" href="https://favmoji.asheeshh.ga/😂"/>
 </head>
 ...
 ```

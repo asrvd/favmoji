@@ -16,12 +16,12 @@ export default {
         <head>
           <title>favmoji</title>
           <meta charset="utf-8">
-          <link rel="icon" href="https://favmoji.asheeshh.workers.dev/🌸" />
+          <link rel="icon" href="https://favmoji.asheeshh.ga/🌸" />
         </head>
         <body>
           <pre>
-            <p>example request: <a href="https://favmoji.asheeshh.workers.dev/🌸">https://favmoji.asheeshh.workers.dev/🌸</a></p>
-            <p>example usage as favicon: &lt;link rel="icon" href="https://favmoji.asheeshh.workers.dev/🌸" /&gt;</p>
+            <p>example request: <a href="https://favmoji.asheeshh.ga/🌸">https://favmoji.asheeshh.ga/🌸</a></p>
+            <p>example usage as favicon: &lt;link rel="icon" href="https://favmoji.asheeshh.ga/🌸" /&gt;</p>
           </pre>
         </body>
       `,
