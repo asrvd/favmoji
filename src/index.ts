@@ -24,6 +24,11 @@ export default {
             <p>example usage as favicon: &lt;link rel="icon" href="https://favmoji.asheeshh.ga/🌸" /&gt;</p>
           </pre>
         </body>
+        <style>
+          a {
+            text-decoration: none;
+          }
+        </style>
       `,
         {
           headers: {
@@ -33,6 +38,12 @@ export default {
       );
     }
     const emoji = parse(path);
-    return fetch(emoji[0].url);
+    if (emoji.length === 0) {
+      return new Response("No emoji found in given request", {
+        status: 404,
+      });
+    } else {
+      return fetch(emoji[0].url);
+    }
   },
 };
