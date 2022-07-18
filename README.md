@@ -1,4 +1,4 @@
-you can use this worker to set emoji favicons for your web app easily using `<link/>` tag.
+you can use this worker to set emoji favicons for your web app easily using `<link/>` or `<meta/>` tags.
 
 example - 
 ```html
